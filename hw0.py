@@ -1,0 +1,10 @@
+expense=int(input())
+exchange=100-expense
+e50=(exchange//50)
+e10=((exchange-50*e50)//10)
+e5=((exchange-50*e50-10*e10)//5)
+e1=((exchange-50*e50-10*e10-5*e5)//1)
+print(e50)
+print(e10)
+print(e5)
+print(e1)
